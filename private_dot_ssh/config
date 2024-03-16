@@ -1,0 +1,9 @@
+Host s3dflogin.slac.stanford.edu
+	Hostname s3dflogin.slac.stanford.edu
+
+Host psana.sdf.slac.stanford.edu
+	Hostname psana
+	ProxyJump s3dflogin.slac.stanford.edu
+
+Host *github.com
+	IdentityFile ~/.ssh/id_rsa_slac
